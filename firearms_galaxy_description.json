@@ -1,0 +1,9 @@
+{
+  "description": "Galaxie décrivant des armes à feu",
+  "icon": "gun",
+  "name": "Firearms",
+  "namespace": "firearms-galaxy",
+  "type": "firearms",
+  "uuid": "2a140b4d-aa29-4653-be58-91feddb0cf17",
+  "version": 1
+}

@@ -1,0 +1,100 @@
+{
+        "authors": [
+        "Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"
+        ],
+        "category": "firearms-galaxy",
+        "description": "Cluster décrivant des armes à feu",
+        "name": "common-firearms",
+        "source": "Connaissance en armes à feu",
+        "type": "firearms",
+        "uuid": "9a6bbe6a-f995-4f44-81bf-6f11f7dae5c4",
+        "values": [
+        {
+                "meta": {
+                        "manufacturer": "Barrett",
+                        "calibre": ".50 BMG",
+                        "poids": "11,68 kg",
+                        "longueur": "1640 mm",
+                        "type_percussion": "percuteur mobile",
+                        "fonctionnement": "culasse fixe",
+                        "longueur_canon": "660 mm",
+                        "matériaux_canon": "acier trempé",
+                        "matériaux_crosse": "polymère",
+                        "matériaux_poignée": "polymère",
+                        "poignée_ergonomique": "oui",
+                        "hausse_réglable": "oui",
+                        "déclencheur": "single action",
+                        "sécurité_manuelle": "oui",
+                        "chargeurs_amovibles": "oui",
+                        "portée_effective": "1500 m",
+                        "poids_balle": "23,85 g",
+                        "vitesse_balle": "862 m/s",
+                        "énergie_balle": "127 kJ",
+                        "capacité_chargeur": "10 coups",
+                        "rails_montage": "oui",
+                        "lunette_de_visée": "compatible",
+                        "type_montage_lunette": "rail Picatinny"
+                },
+                "uuid": "00000000-0000-0000-0000-000000000001",
+                "value": "Barrett M107"
+        },
+        {
+                "meta": {
+                "manufacturer": "AK-47",
+                "calibre": "7.62x39mm",
+                "poids": "4.3 kg",
+                "longueur": "870 mm",
+                "type_percussion": "percuteur mobile",
+                "fonctionnement": "culasse mobile",
+                "longueur_canon": "415 mm",
+                "matériaux_canon": "acier trempé",
+                "matériaux_crosse": "bois",
+                "matériaux_poignée": "bois",
+                "poignée_ergonomique": "non",
+                "hausse_réglable": "oui",
+                "déclencheur": "single action",
+                "sécurité_manuelle": "oui",
+                "chargeurs_amovibles": "oui",
+                "portée_effective": "400 m",
+                "poids_balle": "7.9 g",
+                "vitesse_balle": "715 m/s",
+                "énergie_balle": "2,000 Joules",
+                "capacité_chargeur": "30 coups",
+                "rails_montage": "non",
+                "lunette_de_visée": "compatible",
+                "type_montage_lunette": "rail Picatinny"
+                },
+                "uuid": "2063dcaf-bcf0-487c-be65-540bd1d7f49d",
+                "value": "AK-47"
+        },
+        {
+            "meta": {
+                "manufacturer": "Glock",
+                "calibre": "9x19mm Parabellum",
+                "poids": "0.75 kg",
+                "longueur": "186 mm",
+                "type_percussion": "percuteur mobile",
+                "fonctionnement": "culasse mobile",
+                "longueur_canon": "114 mm",
+                "matériaux_canon": "acier trempé",
+                "matériaux_crosse": "polymère",
+                "matériaux_poignée": "polymère",
+                "poignée_ergonomique": "oui",
+                "hausse_réglable": "non",
+                "déclencheur": "double action",
+                "sécurité_manuelle": "oui",
+                "chargeurs_amovibles": "oui",
+                "portée_effective": "50 m",
+                "poids_balle": "7.45 g",
+                "vitesse_balle": "350 m/s",
+                "énergie_balle": "500 Joules",
+                "capacité_chargeur": "17 coups",
+                "rails_montage": "non",
+                "lunette_de_visée": "non",
+                "type_montage_lunette": "n/a"
+            },
+            "uuid": "00000000-0000-0000-0000-000000000003",
+            "value": "Glock 17"
+        }
+        ]
+}
