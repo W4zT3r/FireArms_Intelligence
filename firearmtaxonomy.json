@@ -1,0 +1,216 @@
+{
+  "namespace": "armes_à_feu",
+  "description": "Taxonomie détaillée des armes à feu",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "type_d'arme",
+      "expanded": "Type d'arme"
+    },
+    {
+      "value": "calibre",
+      "expanded": "Calibre"
+    },
+    {
+      "value": "capacité_du_chargeur",
+      "expanded": "Capacité du chargeur"
+    },
+    {
+      "value": "longueur_du_canon",
+      "expanded": "Longueur du canon"
+    },
+    {
+      "value": "entreprise_de_manufacture",
+      "expanded": "Entreprise de manufacture"
+    },
+    {
+      "value": "poids",
+      "expanded": "Poids"
+    },
+    {
+      "value": "matériaux",
+      "expanded": "Matériaux"
+    },
+    {
+      "value": "type_de_mécanisme_de_tir",
+      "expanded": "Type de mécanisme de tir"
+    },
+    {
+      "value": "type_de_visée",
+      "expanded": "Type de visée"
+    },
+    {
+      "value": "type_de_sécurité",
+      "expanded": "Type de sécurité"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "type_d'arme",
+      "entry": [
+        {
+          "value": "pistolet",
+          "expanded": "Pistolet"
+        },
+        {
+          "value": "revolver",
+          "expanded": "Revolver"
+        },
+        {
+          "value": "fusil",
+          "expanded": "Fusil"
+        },
+        {
+          "value": "fusil_de_précision",
+          "expanded": "Fusil de précision"
+        },
+        {
+          "value": "fusil_d'assaut",
+          "expanded": "Fusil d'assaut"
+        }
+      ]
+    },
+    {
+      "predicate": "calibre",
+      "entry": [
+        {
+          "value": "9mm",
+          "expanded": "9mm"
+        },
+        {
+          "value": "45acp",
+          "expanded": "45acp"
+        },
+        {
+          "value": "308",
+          "expanded": "308"
+        },
+        {
+          "value": "223",
+          "expanded": "223"
+        }
+      ]
+    },
+    {
+      "predicate": "capacité_du_chargeur",
+      "entry": [
+        {
+          "value": "6",
+          "expanded": "6 coups"
+        },
+        {
+          "value": "8",
+          "expanded": "8 coups"
+        },
+        {
+          "value": "10",
+          "expanded": "10 coups"
+        },
+        {
+          "value": "12",
+          "expanded": "12 coups"
+        },
+        {
+          "value": "15",
+          "expanded": "15 coups"
+        }
+      ]
+    },
+    {
+      "predicate": "longueur_du_canon",
+      "entry": [
+        {
+          "value": "4",
+          "expanded": "4 pouces"
+        },
+      	{
+          "value": "5",
+          "expanded": "5 pouces"
+        },
+        {
+          "value": "6",
+          "expanded": "6 pouces"
+        },
+        {
+          "value": "8",
+          "expanded": "8 pouces"
+        },
+        {
+          "value": "16",
+          "expanded": "16 pouces"
+        }
+      ]
+    },
+    {
+      "predicate": "entreprise_de_manufacture",
+      "entry": [
+        {
+          "value": "glock",
+          "expanded": "Glock"
+        },
+        {
+          "value": "smith_and_wesson",
+          "expanded": "Smith & Wesson"
+        },
+        {
+          "value": "sig_sauer",
+          "expanded": "Sig Sauer"
+        },
+        {
+          "value": "colt",
+          "expanded": "Colt"
+        },
+        {
+          "value": "barrett",
+          "expanded": "Barrett"
+        }
+      ]
+    },
+    {
+      "predicate": "poids",
+      "entry": [
+        {
+          "value": "1_kg",
+          "expanded": "1 kg"
+        },
+        {
+          "value": "2_kg",
+          "expanded": "2 kg"
+        },
+        {
+          "value": "3_kg",
+          "expanded": "3 kg"
+        },
+        {
+          "value": "4_kg",
+          "expanded": "4 kg"
+        },
+        {
+          "value": "5_kg",
+          "expanded": "5 kg"
+        }
+      ]
+    },
+    {
+      "predicate": "matériaux",
+      "entry": [
+        {
+          "value": "acier",
+          "expanded": "Acier"
+        },
+        {
+          "value": "aluminium",
+          "expanded": "Aluminium"
+        },
+        {
+          "value": "polymère",
+          "expanded": "Polymère"
+        },
+        {
+          "value": "titane",
+          "expanded": "Titane"
+        }
+      ]
+    }
+  ]
+}
