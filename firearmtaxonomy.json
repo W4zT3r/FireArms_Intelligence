@@ -1,216 +1,465 @@
 {
-  "namespace": "armes_à_feu",
-  "description": "Taxonomie détaillée des armes à feu",
-  "version": 1,
-  "predicates": [
-    {
-      "value": "type_d'arme",
-      "expanded": "Type d'arme"
-    },
-    {
-      "value": "calibre",
-      "expanded": "Calibre"
-    },
-    {
-      "value": "capacité_du_chargeur",
-      "expanded": "Capacité du chargeur"
-    },
-    {
-      "value": "longueur_du_canon",
-      "expanded": "Longueur du canon"
-    },
-    {
-      "value": "entreprise_de_manufacture",
-      "expanded": "Entreprise de manufacture"
-    },
-    {
-      "value": "poids",
-      "expanded": "Poids"
-    },
-    {
-      "value": "matériaux",
-      "expanded": "Matériaux"
-    },
-    {
-      "value": "type_de_mécanisme_de_tir",
-      "expanded": "Type de mécanisme de tir"
-    },
-    {
-      "value": "type_de_visée",
-      "expanded": "Type de visée"
-    },
-    {
-      "value": "type_de_sécurité",
-      "expanded": "Type de sécurité"
-    }
-  ],
-  "values": [
-    {
-      "predicate": "type_d'arme",
-      "entry": [
-        {
-          "value": "pistolet",
-          "expanded": "Pistolet"
-        },
-        {
-          "value": "revolver",
-          "expanded": "Revolver"
-        },
-        {
-          "value": "fusil",
-          "expanded": "Fusil"
-        },
-        {
-          "value": "fusil_de_précision",
-          "expanded": "Fusil de précision"
-        },
-        {
-          "value": "fusil_d'assaut",
-          "expanded": "Fusil d'assaut"
-        }
-      ]
-    },
-    {
-      "predicate": "calibre",
-      "entry": [
-        {
-          "value": "9mm",
-          "expanded": "9mm"
-        },
-        {
-          "value": "45acp",
-          "expanded": "45acp"
-        },
-        {
-          "value": "308",
-          "expanded": "308"
-        },
-        {
-          "value": "223",
-          "expanded": "223"
-        }
-      ]
-    },
-    {
-      "predicate": "capacité_du_chargeur",
-      "entry": [
-        {
-          "value": "6",
-          "expanded": "6 coups"
-        },
-        {
-          "value": "8",
-          "expanded": "8 coups"
-        },
-        {
-          "value": "10",
-          "expanded": "10 coups"
-        },
-        {
-          "value": "12",
-          "expanded": "12 coups"
-        },
-        {
-          "value": "15",
-          "expanded": "15 coups"
-        }
-      ]
-    },
-    {
-      "predicate": "longueur_du_canon",
-      "entry": [
-        {
-          "value": "4",
-          "expanded": "4 pouces"
-        },
-      	{
-          "value": "5",
-          "expanded": "5 pouces"
-        },
-        {
-          "value": "6",
-          "expanded": "6 pouces"
-        },
-        {
-          "value": "8",
-          "expanded": "8 pouces"
-        },
-        {
-          "value": "16",
-          "expanded": "16 pouces"
-        }
-      ]
-    },
-    {
-      "predicate": "entreprise_de_manufacture",
-      "entry": [
-        {
-          "value": "glock",
-          "expanded": "Glock"
-        },
-        {
-          "value": "smith_and_wesson",
-          "expanded": "Smith & Wesson"
-        },
-        {
-          "value": "sig_sauer",
-          "expanded": "Sig Sauer"
-        },
-        {
-          "value": "colt",
-          "expanded": "Colt"
-        },
-        {
-          "value": "barrett",
-          "expanded": "Barrett"
-        }
-      ]
-    },
-    {
-      "predicate": "poids",
-      "entry": [
-        {
-          "value": "1_kg",
-          "expanded": "1 kg"
-        },
-        {
-          "value": "2_kg",
-          "expanded": "2 kg"
-        },
-        {
-          "value": "3_kg",
-          "expanded": "3 kg"
-        },
-        {
-          "value": "4_kg",
-          "expanded": "4 kg"
-        },
-        {
-          "value": "5_kg",
-          "expanded": "5 kg"
-        }
-      ]
-    },
-    {
-      "predicate": "matériaux",
-      "entry": [
-        {
-          "value": "acier",
-          "expanded": "Acier"
-        },
-        {
-          "value": "aluminium",
-          "expanded": "Aluminium"
-        },
-        {
-          "value": "polymère",
-          "expanded": "Polymère"
-        },
-        {
-          "value": "titane",
-          "expanded": "Titane"
-        }
-      ]
-    }
-  ]
+   "namespace":"Armes à feu",
+   "description":"Caractéristiques des armes à feu",
+   "version":2,
+   "predicates":[
+      {
+         "value":"UPC",
+         "expanded":"Code produit universel"
+      },
+      {
+         "value":"SKU",
+         "expanded":"Code produit stock"
+      },
+      {
+         "value":"Numéro de série",
+         "expanded":"Numéro de série de l'arme à feu"
+      },
+      {
+         "value":"Pays de provenance",
+         "expanded":"Pays d'origine de l'arme à feu"
+      },
+      {
+         "value":"Matériaux",
+         "expanded":"Matériaux utilisés pour fabriquer l'arme à feu"
+      },
+      {
+         "value":"Calibre",
+         "expanded":"Dimension du projectile utilisé par l'arme à feu"
+      },
+      {
+         "value":"Type de canon",
+         "expanded":"Type de canon utilisé par l'arme à feu"
+      },
+      {
+         "value":"Type de détente",
+         "expanded":"Type de détente utilisé par l'arme à feu"
+      },
+      {
+         "value":"Type de verrouillage",
+         "expanded":"Type de verrouillage utilisé par l'arme à feu"
+      },
+      {
+         "value":"Type de chargeur",
+         "expanded":"Type de chargeur utilisé par l'arme à feu"
+      },
+      {
+         "value":"Type de visée",
+         "expanded":"Type de visée utilisé par l'arme à feu"
+      },
+      {
+         "value":"Type de poignée",
+         "expanded":"Type de poignée utilisé par l'arme à feu"
+      },
+      {
+         "value":"Type de sécurité",
+         "expanded":"Type de sécurité utilisé par l'arme à feu"
+      },
+      {
+         "value":"Type de munition",
+         "expanded":"Type de projectile utilisé par l'arme à feu"
+      },
+      {
+         "value":"Fabricant",
+         "expanded":"Entreprise ou individu responsable de la production de l'arme à feu"
+      },
+      {
+         "value":"Modèle",
+         "expanded":"Nom ou numéro de modèle de l'arme à feu"
+      },
+      {
+         "value":"Type de mécanisme",
+         "expanded":"Type de mécanisme utilisé par l'arme à feu"
+      },
+      {
+         "value":"Année de fabrication",
+         "expanded":"Année à laquelle l'arme à feu a été fabriquée"
+      },
+      {
+         "value":"Poids",
+         "expanded":"Poids de l'arme à feu"
+      },
+      {
+	"value":"Longueur du canon",
+	"expanded":"Longueur du canon"
+      }
+   ],
+   "values":[
+      {
+         "predicate":"UPC",
+         "entry":[
+            {
+               "value":"123456789012",
+               "expanded":"UPC de l'arme à feu"
+            }
+         ]
+      },
+      {
+         "predicate":"SKU",
+         "entry":[
+            {
+               "value":"SKU-123",
+               "expanded":"SKU de l'arme à feu"
+            }
+         ]
+      },
+      {
+         "predicate":"Numéro de série",
+         "entry":[
+            {
+               "value":"ABCD1234567",
+               "expanded":"Numéro de série de l'arme à feu"
+            }
+         ]
+      },
+      {
+         "predicate":"Pays de provenance",
+         "entry":[
+            {
+               "value":"Etats-Unis",
+               "expanded":"L'arme à feu est fabriquée aux Etats-Unis"
+            }
+         ]
+      },
+      {
+         "predicate":"Matériaux",
+         "entry":[
+            {
+               "value":"Acier",
+               "expanded":"Arme à feu fabriquée en acier",
+               "description":"Arme à feu fabriquée en acier"
+            },
+            {
+               "value":"Aluminium",
+               "expanded":"Aluminium",
+               "description":"Arme à feu fabriquée en aluminium"
+            },
+            {
+               "value":"Polymère",
+               "expanded":"Polymère",
+               "description":"Arme à feu fabriquée en matériau polymère"
+            },
+            {
+               "value":"Titane",
+               "expanded":"Titane",
+               "description":"Arme à feu fabriquée en titane"
+            },
+            {
+               "value":"Autre",
+               "expanded":"Autre",
+               "description":"Arme à feu fabriquée dans un autre matériau"
+            }
+         ]
+      },
+      {
+         "predicate":"Calibre",
+         "entry":[
+            {
+               "value":".22",
+               "expanded":"Arme à feu de calibre .22"
+            },
+            {
+               "value":".32",
+               "expanded":"Arme à feu de calibre .32"
+            },
+            {
+               "value":".38",
+               "expanded":"Arme à feu de calibre .38"
+            },
+            {
+               "value":".45",
+               "expanded":"Arme à feu de calibre .45"
+            },
+            {
+               "value":"9mm",
+               "expanded":"Arme à feu de calibre 9mm"
+            },
+            {
+               "value":"Autre",
+               "expanded":"Autre",
+               "description":"Arme à feu de calibre non-inclus dans la liste"
+            }
+         ]
+      },
+      {
+         "predicate":"Longueur du canon",
+         "entry":[
+            {
+               "value":"2 pouces",
+               "expanded":"Arme à feu avec un canon de 2 pouces de long"
+            },
+            {
+               "value":"3 pouces",
+               "expanded":"Arme à feu avec un canon de 3 pouces de long"
+            },
+            {
+               "value":"4 pouces",
+               "expanded":"Arme à feu avec un canon de 4 pouces de long"
+            },
+            {
+               "value":"5 pouces",
+               "expanded":"Arme à feu avec un canon de 5 pouces de long"
+            },
+            {
+               "value":"6 pouces",
+               "expanded":"Arme à feu avec un canon de 6 pouces de long"
+            },
+            {
+               "value":"Autre",
+               "expanded":"Autre",
+               "description":"Arme à feu avec un canon de longueur non-incluse dans la liste"
+            }
+         ]
+      },
+      {
+         "predicate":"Type de munition",
+         "entry":[
+            {
+               "value":"Plombs",
+               "expanded":"Arme à feu utilisant des plombs comme munition"
+            },
+            {
+               "value":"Balles",
+               "expanded":"Arme à feu utilisant des balles comme munition"
+            },
+            {
+               "value":"Autre",
+               "expanded":"Autre",
+               "description":"Arme à feu utilisant un type de munition non-inclus dans la liste"
+            }
+         ]
+      },
+      {
+         "predicate":"Type de verrouillage",
+         "entry":[
+            {
+               "value":"Verrou manuel",
+               "expanded":"Arme à feu avec verrou manuel"
+            },
+            {
+               "value":"Verrou automatique",
+               "expanded":"Arme à feu avec verrou automatique"
+            },
+            {
+               "value":"Autre",
+               "expanded":"Autre",
+               "description":"Arme à feu avec un système de verrouillage non-inclus dans la liste"
+            }
+         ]
+      },
+      {
+         "predicate":"Type de détente",
+         "entry":[
+            {
+               "value":"Détente simple action",
+               "expanded":"Arme à feu avec détente simple action"
+            },
+            {
+               "value":"Détente double action",
+               "expanded":"Arme à feu avec détente double action"
+            },
+            {
+               "value":"Autre",
+               "expanded":"Autre",
+               "description":"Arme à feu avec un type de détente non-inclus dans la liste"
+            }
+         ]
+      },
+      {
+         "predicate":"Type de sécurité",
+         "entry":[
+            {
+               "value":"Sécurité manuelle",
+               "expanded":"Arme à feu avec sécurité manuelle"
+            },
+            {
+               "value":"Sécurité automatique",
+               "expanded":"Arme à feu avec sécurité automatique"
+            },
+            {
+               "value":"Autre",
+               "expanded":"Autre",
+               "description":"Arme à feu avec un type de sécurité non-inclus dans la liste"
+            }
+         ]
+      },
+      {
+         "predicate":"Type de poignée",
+         "entry":[
+            {
+               "value":"Poignée tactique",
+               "expanded":"Poignée tactique"
+            },
+            {
+               "value":"Poignée ergonomique",
+               "expanded":"Poignée ergonomique"
+            },
+            {
+               "value":"Poignée classique",
+               "expanded":"Poignée classique"
+            },
+            {
+               "value":"Autre",
+               "expanded":"Autre",
+               "description":"Arme à feu avec un type de poignée non-inclus dans la liste"
+            }
+         ]
+      },
+      {
+         "predicate":"Type de visée",
+         "entry":[
+            {
+               "value":"Visée fixe",
+               "expanded":"Arme à feu avec visée fixe"
+            },
+            {
+               "value":"Visée réglable",
+               "expanded":"Arme à feu avec visée réglable"
+            },
+            {
+               "value":"Autre",
+               "expanded":"Autre",
+               "description":"Arme à feu avec un type de visée non-inclus dans la liste"
+            }
+         ]
+      },
+      {
+         "predicate":"Type de chargeur",
+         "entry":[
+            {
+               "value":"Chargeur tubulaire",
+               "expanded":"Arme à feu avec chargeur tubulaire"
+            },
+            {
+               "value":"Chargeur à lamelles",
+               "expanded":"Arme à feu avec chargeur à lamelles"
+            },
+            {
+               "value":"Chargeur box",
+               "expanded":"Arme à feu avec chargeur box"
+            },
+            {
+               "value":"Autre",
+               "expanded":"Autre",
+               "description":"Arme à feu avec un type de chargeur non-inclus dans la liste"
+            }
+         ]
+      },
+      {
+        "predicate":"Fabricant",
+        "entry":[
+          {
+            "value":"Glock",
+            "expanded":"Glock"
+          },
+          {
+            "value":"Colt",
+            "expanded":"Colt"
+          },
+          {
+            "value":"Barrett",
+            "expanded":"Barrett"
+          },
+          {
+            "value":"FN",
+            "expanded":"FN"
+          },
+          {
+            "value":"Smith & Wesson",
+            "expanded":"Smith & Wesson"
+          },
+          {
+            "value":"Winchester",
+            "expanded":"Winchester"
+          },
+          {
+            "value":"Remington",
+            "expanded":"Remington"
+          },
+          {
+            "value":"Kalashnikov",
+            "expanded":"Kalashnikov"
+          },
+          {
+             "value":"Autre",
+             "expanded":"Autre",
+             "description":"Autre fabricant d'armes"
+          }
+        ]
+      },
+      {
+         "predicate":"Type de canon",
+         "entry":[
+            {
+               "value":"Canon lisse",
+               "expanded":"Arme à feu avec canon lisse"
+            },
+            {
+               "value":"Canon rayé",
+               "expanded":"Arme à feu avec canon rayé"
+            },
+            {
+              "value":"Canon scié",
+              "expanded": "Arme à feu avec canon scié"
+            },
+            {
+               "value":"Autre",
+               "expanded":"Autre",
+               "description":"Arme à feu avec un type de canon non-inclus dans la liste"
+            }
+         ]
+      },
+      {
+        "predicate":"Année de fabrication",
+        "entry":[
+          {
+            "value":"2010",
+            "expendant":"Arme fabriquée en 2010"
+          },
+          {
+             "value":"Autre",
+             "expanded":"Autre",
+             "description":"Autre année de fabrication de l'arme"
+          }
+        ]
+      },
+      {
+         "predicate":"Type de mécanisme",
+         "entry":[
+            {
+               "value":"Mécanisme à percussion",
+               "expanded":"Arme à feu avec mécanisme à percussion"
+            },
+            {
+               "value":"Mécanisme à friction",
+               "expanded":"Arme à feu avec mécanisme à friction"
+            },
+            {
+               "value":"Mécanisme à verrou",
+               "expanded":"Arme à feu avec mécanisme à verrou"
+            },
+            {
+               "value":"Mécanisme à bascule",
+               "expanded":"Arme à feu avec mécanisme à bascule"
+            },
+            {
+               "value":"Mécanisme à levier",
+               "expanded":"Arme à feu avec mécanisme à levier"
+            },
+            {
+               "value":"Mécanisme automatique",
+               "expanded":"Arme à feu avec mécanisme automatique"
+            },
+            {
+               "value":"Mécanisme semi-automatique",
+               "expanded":"Arme à feu avec mécanisme semi-automatique"
+            },
+            {
+               "value":"Autre",
+               "expanded":"Autre",
+               "description":"Arme à feu avec un type de mécanisme non-inclus dans la liste"
+            }
+         ]
+      }
+   ]
 }
