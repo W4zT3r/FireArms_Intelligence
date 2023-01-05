@@ -1,6 +1,6 @@
 {
   "description": "Galaxie décrivant des armes à feu",
-  "icon": "gun",
+  "icon": "fire",
   "name": "Firearms",
   "namespace": "firearms-galaxy",
   "type": "firearms",
