@@ -1,0 +1,87 @@
+{
+  "requiredOneOf": [
+    "type"
+  ],
+  "attributes": {
+    "type": {
+      "description": "Type d'arme à feu (pistolet, fusil, etc.).",
+      "ui-priority": 0,
+      "misp-attribute": "text"
+    },
+    "comment": {
+      "description": "Une description de l'arme à feu.",
+      "ui-priority": 0,
+      "misp-attribute": "comment"
+    },
+    "serial-number": {
+      "description": "Numéro de série de l'arme à feu.",
+      "ui-priority": 0,
+      "misp-attribute": "text"
+    },
+    "manufacturer": {
+      "description": "Fabricant de l'arme à feu.",
+      "ui-priority": 0,
+      "misp-attribute": "text"
+    },
+    "model": {
+      "description": "Modèle de l'arme à feu.",
+      "ui-priority": 0,
+      "misp-attribute": "text"
+    },
+    "calibre": {
+      "description": "Calibre de l'arme à feu.",
+      "ui-priority": 0,
+      "misp-attribute": "text"
+    },
+    "barrel-length": {
+      "description": "Longueur du canon de l'arme à feu en pouces ou en centimètres.",
+      "ui-priority": 0,
+      "misp-attribute": "text"
+    },
+    "action": {
+      "description": "Type d'action de l'arme à feu (par exemple, semi-automatique, à répétition manuelle, etc.).",
+      "ui-priority": 0,
+      "misp-attribute": "text"
+    },
+    "capacity": {
+      "description": "Capacité du chargeur de l'arme à feu.",
+      "ui-priority": 0,
+      "misp-attribute": "text"
+    },
+    "owner": {
+      "description": "Nom du propriétaire de l'arme à feu.",
+      "ui-priority": 0,
+      "misp-attribute": "text"
+    },
+    "license": {
+      "description": "Numéro de licence ou de permis de l'arme à feu.",
+      "ui-priority": 0,
+      "misp-attribute": "text"
+    },
+    "registration": {
+      "description": "Date d'enregistrement de l'arme à feu.",
+      "ui-priority": 0,
+      "misp-attribute": "datetime"
+    },
+    "acquisition-date": {
+      "description": "Date d'acquisition de l'arme à feu.",
+      "ui-priority": 0,
+      "misp-attribute": "datetime"
+    },
+    "location": {
+      "description": "Emplacement de l'arme à feu (par exemple, dans un coffre-fort ou avec un propriétaire spécifique).",
+      "ui-priority": 0,
+      "misp-attribute": "text"
+    },
+    "photo": {
+      "description": "Photo de l'arme à feu",
+      "ui-priority": 0,
+      "misp-attribute": "text"
+    }
+  },
+  "version": 2,
+  "description": "Une arme à feu.",
+  "meta-category": "firearm",
+  "uuid": "40f057c3-2972-4300-bf2a-d97aae68fb02",
+  "name": "firearm"
+}
