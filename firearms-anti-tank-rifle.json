@@ -1,0 +1,9 @@
+{
+  "description": "Anti-tank rifle models galaxy",
+  "icon": "fire",
+  "name": "Firearms - Anti-tank rifle models",
+  "namespace": "firearms-galaxy",
+  "type": "firearms",
+  "uuid": "35234daa-1263-4d4a-9b14-f9c642df37b2",
+  "version": 1
+}

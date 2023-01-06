@@ -1,0 +1,9 @@
+{
+  "description": "Civilian rifle models galaxy",
+  "icon": "fire",
+  "name": "Firearms - Civilian rifle models",
+  "namespace": "firearms-galaxy",
+  "type": "firearms",
+  "uuid": "1fe51b49-26d7-4434-ac51-f7a5c5f042d1",
+  "version": 1
+}
