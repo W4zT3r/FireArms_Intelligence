@@ -50,9 +50,9 @@ def add_firearm_to_cluster(firearm):
 		meta[key] = value
 
 	new_value = {
-	"meta": meta,
-	"uuid": uuidgen(),
-	"value": firearm["name"],
+		"meta": meta,
+		"uuid": uuidgen(),
+		"value": firearm["name"],
 	}
 
 	cluster["values"].append(new_value)
@@ -73,9 +73,9 @@ firearm2 = {
 }
 
 firearm3 = {
-	"name": "Uzi",
-	"calibre": "9mm",
-	"weight": "50 oz",
+	"name": "Berretta M107",
+	"calibre": ".50 BMG",
+	"weight": "14.4 oz",
 }
 
 add_firearm_to_cluster(firearm1)
@@ -84,6 +84,3 @@ add_firearm_to_cluster(firearm3)
 
 
 print(json.dumps(cluster))
-
-
-misp.add_cluster(cluster)
