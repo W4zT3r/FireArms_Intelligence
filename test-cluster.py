@@ -1,3 +1,4 @@
+  GNU nano 6.4                                                                                                                                                                               firearms_to_cluster.py                                                                                                                                                                                         
 import json
 import os
 from pymisp import PyMISP
@@ -5,7 +6,7 @@ from pymisp import PyMISP
 # Not done !!
 
 def uuidgen():
-	return os.popen("uuidgen").read().strip()
+        return os.popen("uuidgen").read().strip()
 
 cluster_handgun = {
         "authors": ["Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"],
@@ -42,45 +43,46 @@ cluster_assault_rifle = {
 
 
 # clé API MISP
-misp = PyMISP('http://*******/', '*********')
+#misp = PyMISP('', '')
 
-def add_firearm_to_cluster(firearm):
-	meta = {}
-	for key, value in firearm.items():
-		meta[key] = value
+def add_firearm_to_cluster(cluster, firearm):
+        meta = {}
+        for key, value in firearm.items():
+                meta[key] = value
 
-	new_value = {
-		"meta": meta,
-		"uuid": uuidgen(),
-		"value": firearm["name"],
-	}
+        new_value = {
+                "meta": meta,
+                "uuid": uuidgen(),
+                "value": firearm["name"],
+        }
 
-	cluster["values"].append(new_value)
+        cluster["values"].append(new_value)
 
 
 ### test ###
 firearm1 = {
-	"name": "Beretta M9",
-	"calibre": "9mm",
-	"weight": "33 oz",
+        "name": "Beretta 92FS",
+        "calibre": "9mm",
+        "weight": "34 oz",
 }
 
 
 firearm2 = {
-	"name": "Glock 19",
-	"calibre": "9mm",
-	"weight": "23 oz",
+        "name": "Glock 19",
+        "calibre": "9mm",
+        "weight": "23 oz",
 }
 
 firearm3 = {
-	"name": "Berretta M107",
-	"calibre": ".50 BMG",
-	"weight": "14.4 oz",
+        "name": "Kalashnikov AK-47",
+        "calibre": "7,62x39mm",
+        "weight": "166 oz",
 }
 
-add_firearm_to_cluster(firearm1)
-add_firearm_to_cluster(firearm2)
-add_firearm_to_cluster(firearm3)
+add_firearm_to_cluster(cluster_handgun, firearm1)
+add_firearm_to_cluster(cluster_handgun, firearm2)
+add_firearm_to_cluster(cluster_assault_rifle, firearm3)
 
 
-print(json.dumps(cluster))
+print(json.dumps(cluster_handgun))
+print(json.dumps(cluster_assault_rifle))
