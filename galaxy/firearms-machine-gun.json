@@ -1,9 +1,9 @@
 {
-  "description": "Mahine gun models galaxy",
+  "description": "Machine gun models galaxy",
   "icon": "fire",
   "name": "Firearms - Machine gun models",
   "namespace": "firearms-galaxy",
-  "type": "firearms",
+  "type": "firearms-machine-gun",
   "uuid": "2d5793f1-d9d0-4cdc-acea-d409cd09b88e",
   "version": 1
 }

@@ -3,7 +3,7 @@
   "icon": "fire",
   "name": "Firearms - Shotgun models",
   "namespace": "firearms-galaxy",
-  "type": "firearms",
+  "type": "firearms-shotgun",
   "uuid": "3f45a11c-35f5-4ca8-869e-ad6b914f0ed9",
   "version": 1
 }

@@ -3,7 +3,7 @@
   "icon": "fire",
   "name": "Firearms - Handguns",
   "namespace": "firearms",
-  "type": "firearms",
+  "type": "firearms-handgun",
   "uuid": "61717320-cdb6-46ea-bae6-4ce6464c4ab2",
   "version": 1
 }

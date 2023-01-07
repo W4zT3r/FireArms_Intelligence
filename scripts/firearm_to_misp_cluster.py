@@ -85,3 +85,5 @@ add_firearm_to_cluster(cluster_assault_rifle, firearm3)
 
 print(json.dumps(cluster_handgun))
 print(json.dumps(cluster_assault_rifle))
+
+# add here code that automatically adds the cluster through MISP API

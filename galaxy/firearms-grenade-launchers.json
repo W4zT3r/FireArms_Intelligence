@@ -3,7 +3,7 @@
   "icon": "fire",
   "name": "Firearms - Grenade launcher models",
   "namespace": "firearms-galaxy",
-  "type": "firearms",
+  "type": "firearms-grenade-launcher",
   "uuid": "5fb86f0f-6d81-448c-b64a-acf72fed0530",
   "version": 1
 }
