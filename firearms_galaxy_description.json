@@ -1,4 +1,4 @@
-{
+{ // Ce fichier décrit la toute première galaxie que nous avons réalisée.
   "description": "Galaxie décrivant des armes à feu",
   "icon": "fire",
   "name": "Firearms",
