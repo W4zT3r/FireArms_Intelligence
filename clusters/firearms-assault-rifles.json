@@ -1,0 +1,22 @@
+{
+  "name": "Firearms - Assault rifles",
+  "namespace": "firearms-galaxy",
+  "description": "Assault rifle models galaxy",
+  "type": "firearms-assault-rifle",
+  "authors": [
+    "Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"
+  ],
+  "source": "https://modernfirearms.net/en/",
+  "uuid": "18110002-4c75-4787-bf7a-010c29caef21",
+  "values": [
+    {
+      "meta": {
+        "name": "Kalashnikov AK-47",
+        "calibre": "7,62x39mm",
+        "weight": "4.7 kg"
+      },
+      "uuid": "725d5e93-292a-409b-a041-a7e4bb058977",
+      "value": "Kalashnikov AK-47"
+    }
+  ]
+}

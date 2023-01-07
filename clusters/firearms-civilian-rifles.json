@@ -1,0 +1,22 @@
+{
+  "name": "Firearms - Civilian rifles",
+  "namespace": "firearms-galaxy",
+  "description": "Civilian rifle models galaxy",
+  "type": "firearms-civilian-rifle",
+  "authors": [
+    "Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"
+  ],
+  "source": "https://modernfirearms.net/en/",
+  "uuid": "1fe51b49-26d7-4434-ac51-f7a5c5f042d1",
+  "values": [
+    {
+      "meta": {
+        "name": "Remington 700",
+        "calibre": "7.62mm",
+        "weight": "3.4 kg"
+      },
+      "uuid": "d7e6297c-0036-4e18-bb0e-4ad40dd11b3d",
+      "value": "Remington 700"
+    }
+  ]
+}

@@ -1,9 +1,11 @@
 {
-	"description": "Sniper rifle models galaxy",
-	"icon": "fire",
-	"name": "Firearms - Sniper rifle models",
+	"name": "Firearms - Sniper rifles",
 	"namespace": "firearms-galaxy",
+	"description": "Sniper rifle models galaxy",
 	"type": "firearms-sniper-rifle",
+        "authors": ["Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"],
+        "source": "https://modernfirearms.net/en/",
+	"icon": "fire",
 	"uuid": "54a306df-a122-4b98-a264-41d3465d1a2c",
 	"version": 1
 }

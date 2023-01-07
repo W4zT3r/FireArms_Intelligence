@@ -1,9 +1,11 @@
 {
-	"description": "Submachine gun models galaxy",
-	"icon": "fire",
 	"name": "Firearms - Submachine guns",
 	"namespace": "firearms-galaxy",
+	"description": "Submachine gun models galaxy",
 	"type": "firearms-submachine-gun-galaxy",
+        "authors": ["Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"],
+        "source": "https://modernfirearms.net/en/",
+	"icon": "fire",
 	"uuid": "71fa6d0d-f00a-4138-a2a3-038ee75a3e70",
 	"version": 1
 }

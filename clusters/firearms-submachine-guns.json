@@ -1,0 +1,22 @@
+{
+  "name": "Firearms - Submachine guns",
+  "namespace": "firearms-galaxy",
+  "description": "Submachine gun models galaxy",
+  "type": "firearms-submachine-gun-galaxy",
+  "authors": [
+    "Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"
+  ],
+  "source": "https://modernfirearms.net/en/",
+  "uuid": "71fa6d0d-f00a-4138-a2a3-038ee75a3e70",
+  "values": [
+    {
+      "meta": {
+        "name": "Heckler & Koch MP5",
+        "calibre": "9mm",
+        "weight": "2.9 kg"
+      },
+      "uuid": "a48d98c5-a970-4235-928a-7c9525bcad5f",
+      "value": "Heckler & Koch MP5"
+    }
+  ]
+}

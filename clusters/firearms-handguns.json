@@ -1,0 +1,22 @@
+{
+  "name": "Firearms - Handguns",
+  "namespace": "firearms-galaxy",
+  "description": "Handgun models galaxy",
+  "type": "firearms-handgun",
+  "authors": [
+    "Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"
+  ],
+  "source": "https://modernfirearms.net/en/",
+  "uuid": "61717320-cdb6-46ea-bae6-4ce6464c4ab2",
+  "values": [
+    {
+      "meta": {
+        "name": "Beretta 92FS",
+        "calibre": "9mm",
+        "weight": "0.9 kg"
+      },
+      "uuid": "d6bbcb5a-c087-4372-aa19-a6223024077c",
+      "value": "Beretta 92FS"
+    }
+  ]
+}

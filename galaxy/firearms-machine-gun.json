@@ -1,9 +1,11 @@
 {
-	"description": "Machine gun models galaxy",
-	"icon": "fire",
-	"name": "Firearms - Machine gun models",
+	"name": "Firearms - Machine guns",
 	"namespace": "firearms-galaxy",
+	"description": "Machine gun models galaxy",
 	"type": "firearms-machine-gun",
+        "authors": ["Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"],
+        "source": "https://modernfirearms.net/en/",
+	"icon": "fire",
 	"uuid": "2d5793f1-d9d0-4cdc-acea-d409cd09b88e",
 	"version": 1
 }

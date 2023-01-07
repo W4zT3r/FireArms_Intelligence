@@ -1,0 +1,22 @@
+{
+  "name": "Firearms - Anti-tank rifles",
+  "namespace": "firearms-galaxy",
+  "description": "Anti-tank rifle models galaxy",
+  "type": "firearms-anti-tank-rifle",
+  "authors": [
+    "Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"
+  ],
+  "source": "https://modernfirearms.net/en/",
+  "uuid": "35234daa-1263-4d4a-9b14-f9c642df37b2",
+  "values": [
+    {
+      "meta": {
+        "name": "Boys Anti-tank Rifle",
+        "calibre": ".55in",
+        "weight": "31.8 kg"
+      },
+      "uuid": "68a178d4-93cd-4865-b289-0cc222dfb587",
+      "value": "Boys Anti-tank Rifle"
+    }
+  ]
+}

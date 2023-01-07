@@ -1,0 +1,22 @@
+{
+  "name": "Firearms - Shotguns",
+  "namespace": "firearms-galaxy",
+  "description": "Shotgun models galaxy",
+  "type": "firearms-shotgun",
+  "authors": [
+    "Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"
+  ],
+  "source": "https://modernfirearms.net/en/",
+  "uuid": "3f45a11c-35f5-4ca8-869e-ad6b914f0ed9",
+  "values": [
+    {
+      "meta": {
+        "name": "Remington 870",
+        "calibre": "12 gauge",
+        "weight": "3.2 kg"
+      },
+      "uuid": "2e2a300d-a938-4c9f-a500-7fbded1d6358",
+      "value": "Remington 870"
+    }
+  ]
+}

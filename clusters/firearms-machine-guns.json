@@ -1,0 +1,22 @@
+{
+  "name": "Firearms - Machine guns",
+  "namespace": "firearms-galaxy",
+  "description": "Machine gun models galaxy",
+  "type": "firearms-machine-gun",
+  "authors": [
+    "Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"
+  ],
+  "source": "https://modernfirearms.net/en/",
+  "uuid": "2d5793f1-d9d0-4cdc-acea-d409cd09b88e",
+  "values": [
+    {
+      "meta": {
+        "name": "M249",
+        "calibre": "5.56mm",
+        "weight": "10.4 kg"
+      },
+      "uuid": "9a417150-3f9c-4eb5-b212-ffdb7773cbb4",
+      "value": "M249"
+    }
+  ]
+}

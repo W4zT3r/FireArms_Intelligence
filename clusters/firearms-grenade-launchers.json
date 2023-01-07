@@ -1,0 +1,22 @@
+{
+  "name": "Firearms - Grenade launchers",
+  "namespace": "firearms-galaxy",
+  "description": "Grenade launcher models galaxy",
+  "type": "firearms-grenade-launcher",
+  "authors": [
+    "Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"
+  ],
+  "source": "https://modernfirearms.net/en/",
+  "uuid": "5fb86f0f-6d81-448c-b64a-acf72fed0530",
+  "values": [
+    {
+      "meta": {
+        "name": "M203",
+        "calibre": "40mm",
+        "weight": "1.6 kg"
+      },
+      "uuid": "5cf58041-e87c-483c-9d67-b031a0127a68",
+      "value": "M203"
+    }
+  ]
+}

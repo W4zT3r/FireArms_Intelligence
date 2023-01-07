@@ -1,9 +1,11 @@
 {
-	"description": "Shotgun models galaxy",
-	"icon": "fire",
-	"name": "Firearms - Shotgun models",
+	"name": "Firearms - Shotguns",
 	"namespace": "firearms-galaxy",
+	"description": "Shotgun models galaxy",
 	"type": "firearms-shotgun",
+        "authors": ["Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"],
+        "source": "https://modernfirearms.net/en/",
+	"icon": "fire",
 	"uuid": "3f45a11c-35f5-4ca8-869e-ad6b914f0ed9",
 	"version": 1
 }

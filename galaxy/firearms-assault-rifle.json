@@ -1,9 +1,11 @@
 {
-	"description": "Assault rifle models galaxy",
-	"icon": "fire",
-	"name": "Firearms - Assaults",
+	"name": "Firearms - Assault rifles",
 	"namespace": "firearms-galaxy",
+	"description": "Assault rifle models galaxy",
 	"type": "firearms-assault-rifle",
+        "authors": ["Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"],
+        "source": "https://modernfirearms.net/en/",
+	"icon": "fire",
 	"uuid": "18110002-4c75-4787-bf7a-010c29caef21",
 	"version": 1
 }
