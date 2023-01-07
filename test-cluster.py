@@ -1,4 +1,3 @@
-  GNU nano 6.4                                                                                                                                                                               firearms_to_cluster.py                                                                                                                                                                                         
 import json
 import os
 from pymisp import PyMISP
