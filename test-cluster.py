@@ -42,7 +42,7 @@ cluster_assault_rifle = {
 
 
 # clé API MISP
-misp = PyMISP('http://localhost/', 'xPg3ZNDnkWCQOddAYKDlz1j3FiqDOO9YtpK2tKB9')
+misp = PyMISP('http://*******/', '*********')
 
 def add_firearm_to_cluster(firearm):
 	meta = {}
