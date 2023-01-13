@@ -1,6 +1,6 @@
 import json
 import os
-from pymisp import PyMISP
+#from pymisp import PyMISP
 
 # Not done !!
 
