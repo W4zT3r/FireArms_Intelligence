@@ -1,0 +1,11 @@
+{
+	"name": "Firearms - Vendors",
+	"namespace": "firearms-vendors",
+	"description": "Common firearm vendors galaxy",
+	"type": "firearms-vendors",
+        "authors": ["Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"],
+        "source": "https://fr.wikipedia.org/",
+	"icon": "dollar",
+	"uuid": "158f231a-c197-4259-bc37-b307f55da2a9",
+	"version": 1
+}
