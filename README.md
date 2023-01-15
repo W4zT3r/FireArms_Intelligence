@@ -46,4 +46,4 @@ We recommande to launch all programs in a specific folders inspite of the high n
 ```python
 
 # Launch
-python3 <programs>.py
+python3 <program>.py
