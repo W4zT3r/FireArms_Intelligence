@@ -1,5 +1,7 @@
 # Firearms intelligence through MISP
 
+[Logo] (https://github.com/bribrizoo/FireArms_Intelligence/blob/main/Logo.png)
+
 ## Project Description
 
 ### Contains
