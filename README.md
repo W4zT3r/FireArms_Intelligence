@@ -43,7 +43,7 @@ pip3 install BeautifulSoup
 
 ## Usage
 
-We recommande to launch all programs in a specific folders inspite of the high number of file generated. The generation can take an hour, be patient :)  
+We recommande to launch all programs in a specific folder inspite of the high number of file generated. The generation can take an hour, be patient :)  
 
 ```python
 
