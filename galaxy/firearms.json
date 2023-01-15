@@ -1,12 +1,11 @@
 {
-  "name": "Firearms",
-  "namespace": "Firearms",
-  "description": "Common firearms galaxy",
-  "type": "firearms",
-  "authors": [
-    "Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"
-  ],
-  "source": "https://www.impactguns.com",
-  "icon": "fire",
-  "uuid": "f5b50eaa-4509-4d24-b958-ed7a41a55482"
+	"name": "Firearms",
+	"namespace": "Firearms",
+	"description": "Common firearms galaxy",
+	"type": "firearms",
+	"authors": ["Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"],
+	"source": "https://www.impactguns.com",
+	"icon": "fire",
+	"uuid": "f5b50eaa-4509-4d24-b958-ed7a41a55482",
+	"version": 1
 }
