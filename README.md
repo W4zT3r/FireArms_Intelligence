@@ -26,7 +26,7 @@ In addition, we also looked into other sources such as Wikipedia and national fi
 
 Despite these challenges, we plan to continue working on this project and will be using ImpactGuns as our primary source for data collection and clustering.
 
-## Depedencies
+## Dependencies
 
 To use our scrapping codes, you need to have python3 and the BeautifulSoup library installed on your machine. 
 
