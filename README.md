@@ -33,12 +33,12 @@ To use our scrapping codes, you need to have python3 and the BeautifulSoup libra
 #### 🍎 MacOS
 ```bash
 brew install python 3.x
-pip3 install BeautifulSoup
+pip3 install BeautifulSoup4
 ```
 #### 🐧 Linux
 ```bash
 sudo apt-get install python3.x
-pip3 install BeautifulSoup
+pip3 install BeautifulSoup4
 ```
 
 ## 👨🏻‍🔧 Usage
