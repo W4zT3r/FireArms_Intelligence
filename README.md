@@ -14,7 +14,7 @@ Testing and asking for feedback, we realized that the galaxy model was the best 
 
 Please note that this project is for grading purposes only, and the files in the "old" folder will be removed once the project has been graded.
 
-### Overview
+### 👁️ Overview
 
 This repository contains the source code for a web scraping project aimed at collecting information on firearms from various online sources. Our initial focus was on websites such as [ImpactGuns](https://www.impactguns.com/) and [ModernFirearm](https://modernfirearms.net/en/), as they proved to be the most comprehensive. However, we encountered difficulties in extracting the desired data due to the dynamic nature of the sites.
 
@@ -26,7 +26,7 @@ In addition, we also looked into other sources such as Wikipedia and national fi
 
 Despite these challenges, we plan to continue working on this project and will be using ImpactGuns as our primary source for data collection and clustering.
 
-## Dependencies
+## 🔗 Dependencies
 
 To use our scrapping codes, you need to have python3 and the BeautifulSoup library installed on your machine. 
 
