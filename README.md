@@ -4,7 +4,7 @@
 
 ## Project Description
 
-### Contains
+### 📜 Contains
 
 This repository contains the source code for a web scraping project aimed at collecting information on firearms from various online sources and representing them in the format of MISP (Malware Information Sharing Platform). The files in the [old](https://github.com/bribrizoo/FireArms_Intelligence/tree/main/old) folder are the initial JSON files we created in an attempt to represent firearms in MISP.
 
