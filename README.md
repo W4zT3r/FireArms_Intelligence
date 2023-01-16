@@ -1,8 +1,8 @@
-# Firearms intelligence through MISP
+# 🧠 Firearms intelligence through MISP
 
 ![Logo](https://github.com/bribrizoo/FireArms_Intelligence/blob/main/Logo.png?raw=true)
 
-## Project Description
+## 👨🏻‍💻 Project Description
 
 ### 📜 Contains
 
@@ -22,7 +22,7 @@ We also attempted to scrape data from the official websites of firearm manufactu
 
 In addition, we also looked into other sources such as Wikipedia and national firearms registries (SIA and Canadian firearms registry) but were unable to gather the required information.
 
-### Final decision
+### ✍🏻 Final decision
 
 Despite these challenges, we plan to continue working on this project and will be using ImpactGuns as our primary source for data collection and clustering.
 
@@ -30,18 +30,18 @@ Despite these challenges, we plan to continue working on this project and will b
 
 To use our scrapping codes, you need to have python3 and the BeautifulSoup library installed on your machine. 
 
-#### MacOS
+#### 🍎 MacOS
 ```bash
 brew install python 3.x
 pip3 install BeautifulSoup
 ```
-#### Linux
+#### 🐧 Linux
 ```bash
 sudo apt-get install python3.x
 pip3 install BeautifulSoup
 ```
 
-## Usage
+## 👨🏻‍🔧 Usage
 
 We recommande to launch all programs in a specific folder inspite of the high number of file generated. The generation can take an hour, be patient :)  
 
