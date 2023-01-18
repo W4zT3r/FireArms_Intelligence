@@ -1,0 +1,11 @@
+{
+        "name": "Optics",
+        "namespace": "optics",
+        "description": "Common optics galaxy",
+        "type": "optics",
+        "authors": ["Bryan BAUMGARTNER, Theotime CHAPIER-MALDAGUE"],
+        "source": "https://impactguns.com/",
+        "icon": "crosshairs",
+        "uuid": "a97a3f40-5ae8-47d1-84f7-ca9b1b96f670",
+        "version": 1
+}
