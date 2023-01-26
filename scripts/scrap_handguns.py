@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 
 def get_firearms_infos ():
-    f = open("firearms.json", 'a')
+    f = open("handguns.json", 'a')
     cluster_firearms = {
         "name": "Firearms",
         "namespace": "Firearms",
@@ -53,45 +53,41 @@ def get_firearms_infos ():
                     for i in range (0, len(product_labels)) :
                         firearm[labels[i]] = values[i]
 
-                    if not "SKU" in firearm :
-                        firearm["SKU"] = "N/A"
-                    if not "Model" in firearm :
-                        firearm["Model"] = "N/A"
-                    if not "UPC" in firearm :
-                        firearm["UPC"] = "N/A"
-                    if not "BRAND" in firearm :
-                        firearm["BRAND"] = "N/A"
-                    if not "Manufacturer Number" in firearm :
-                        firearm["Manufacturer Number"] = "N/A"
-                    if not "Caliber" in firearm :
-                        firearm["Caliber"] = "N/A"
-                    if not "Rounds" in firearm :
-                        firearm["Rounds"] = "N/A"
-                    if not "Unit of Measure" in firearm :
-                        firearm["Unit of Measure"] = "N/A"
-                    if not "Classification" in firearm :
-                        firearm["Classification"] = "N/A"
 
-                    print (firearm["Model"])
+                    if "Model" in firearm and "BRAND" in firearm and "SKU" in firearm:
+                        if not "SKU" in firearm :
+                            firearm["SKU"] = "N/A"
+                        if not "Manufacturer Number" in firearm :
+                            firearm["Manufacturer Number"] = "N/A"
+                        if not "Caliber" in firearm :
+                            firearm["Caliber"] = "N/A"
+                        if not "Rounds" in firearm :
+                            firearm["Rounds"] = "N/A"
+                        if not "Unit of Measure" in firearm :
+                            firearm["Unit of Measure"] = "N/A"
+                        if not "Classification" in firearm :
+                            firearm["Classification"] = "N/A"
 
-                    meta = {
-                        "SKU": firearm["SKU"],
-                        "UPC": firearm["UPC"],
-                        "BRAND": firearm["BRAND"],
-                        "manufacturer": firearm["Manufacturer Number"],
-                        "name": firearm["Model"],
-                        "caliber": firearm["Caliber"],
-                        "Rounds": firearm["Rounds"],
-                        "Unit of Measure": firearm["Unit of Measure"],
-                        "Classification": firearm["Classification"]
-                    }
+                        print (firearm["Model"] + " - " + firearm["SKU"])
 
-                    new_value = {
-                        "meta": meta,
-                        "uuid": uuidgen(),
-                        "value": firearm["Model"]
-                    }
-                    cluster_firearms["values"].append(new_value)
+                        meta = {
+                            "SKU": firearm["SKU"],
+                            "BRAND": firearm["BRAND"],
+                            "manufacturer": firearm["Manufacturer Number"],
+                            "name": firearm["Model"],
+                            "caliber": firearm["Caliber"],
+                            "Rounds": firearm["Rounds"],
+                            "Unit of Measure": firearm["Unit of Measure"],
+                            "Classification": firearm["Classification"]
+                        }
+
+                        new_value = {
+                            "meta": meta,
+                            "uuid": uuidgen(),
+                            "value": firearm["Model"] + " - " + firearm["SKU"]
+                        }
+                        cluster_firearms["values"].append(new_value)
+
     f.write (json.dumps(cluster_firearms))
 
 
